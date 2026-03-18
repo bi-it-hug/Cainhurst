@@ -8,7 +8,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/yourusername/cainhurst-theme.git"
+        "url": "https://github.com/bi-it-hug/Cainhurst.git"
     },
     "engines": {
         "vscode": "^1.106.1"

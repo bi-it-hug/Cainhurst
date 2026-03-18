@@ -1,0 +1,28 @@
+{
+    "name": "cainhurst",
+    "displayName": "Cainhurst",
+    "description": "My personal preference of a Dark Theme.",
+    "publisher": "Lorenzo Hug",
+    "version": "0.0.1",
+    "icon": "icon.png",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yourusername/cainhurst-theme.git"
+    },
+    "engines": {
+        "vscode": "^1.106.1"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Cainhurst",
+                "uiTheme": "vs-dark",
+                "path": "./themes/cainhurst-color-theme.json"
+            }
+        ]
+    }
+}

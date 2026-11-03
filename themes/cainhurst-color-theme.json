@@ -809,7 +809,7 @@
     "terminal.ansiBrightCyan": "#53eafd",
     "terminal.ansiBrightGreen": "#7bf1a8",
     "terminal.ansiBrightMagenta": "#dab2ff",
-    "terminal.ansiBrightRed": "#ffa2a2",
+    "terminal.ansiBrightRed": "#ff6466", /* #ffa2a2 */
     "terminal.ansiBrightWhite": "#fafafa",
     "terminal.ansiBrightYellow": "#ffd230",
     "terminal.ansiCyan": "#00d3f2",

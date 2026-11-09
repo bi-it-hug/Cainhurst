@@ -17,14 +17,16 @@ const n = { // Tailwind v4 neutral, the base color of shadcn/ui
   950: '#0a0a0a', 900: '#171717', 800: '#262626', 700: '#404040', 600: '#525252',
   500: '#737373', 400: '#a1a1a1', 300: '#d4d4d4', 200: '#e5e5e5', 50: '#fafafa',
 };
-// Status hues, Tailwind v4. Green means "added / passed / running", never plain emphasis.
-const success = '#00c950', successLight = '#7bf1a8', green = '#05df72'; // green 500 / 300 / 400
-const red = '#ff6467', redLight = '#ffa2a2'; // red 400 is shadcn's dark --destructive
-const amber = '#ffb900', amberLight = '#ffd230';
-const blue = '#51a2ff', blueLight = '#8ec5ff';
-const violet = '#c27aff', violetLight = '#dab2ff';
-const cyan = '#00d3f2', cyanLight = '#53eafd';
-const orange = '#ff8904', pink = '#fb64b6';
+// Status hues: Tailwind v4 with OKLCH chroma capped at 0.13 (lightness and hue unchanged),
+// because the raw values look neon beside the neutrals and syntax colors.
+// Green means "added / passed / running", never plain emphasis.
+const success = '#6abd77', successLight = '#8aeeae', green = '#76d391'; // green 500 / 300 / 400
+const red = '#e57c79', redLight = '#ffa2a2'; // red 400, shadcn's dark --destructive is #ff6467
+const amber = '#f2be5b', amberLight = '#f6d46b';
+const blue = '#63a3ee', blueLight = '#8ec5ff';
+const violet = '#b78be1', violetLight = '#dab2ff';
+const cyan = '#32d2ee', cyanLight = '#53eafd';
+const orange = '#ea9655', pink = '#e080b0';
 const W = '#ffffff', T = '#00000000';
 const a = (hex, o) => hex + Math.round(o * 255).toString(16).padStart(2, '0');
 

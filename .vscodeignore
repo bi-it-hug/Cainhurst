@@ -1,5 +1,9 @@
 .vscode/**
 .vscode-test/**
 .gitignore
-vsc-extension-quickstart.md
+.gitattributes
+.prettierrc
 scripts/**
+*.vsix
+index.html
+lol.css

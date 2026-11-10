@@ -1,14 +1,22 @@
 {
-    "name": "cainhurst",
-    "displayName": "Cainhurst",
-    "description": "My personal preference of a Dark Theme.",
+    "name": "miasma",
+    "displayName": "Miasma",
+    "description": "A quiet near-black dark theme: untinted neutral greys, card-style surfaces and muted accents.",
     "publisher": "bi-it-hug",
     "version": "0.0.1",
     "icon": "icon.png",
     "license": "MIT",
+    "galleryBanner": {
+        "color": "#0a0a0a",
+        "theme": "dark"
+    },
+    "homepage": "https://github.com/bi-it-hug/miasma#readme",
+    "bugs": {
+        "url": "https://github.com/bi-it-hug/miasma/issues"
+    },
     "repository": {
         "type": "git",
-        "url": "https://github.com/bi-it-hug/Cainhurst.git"
+        "url": "https://github.com/bi-it-hug/miasma.git"
     },
     "engines": {
         "vscode": "^1.106.1"
@@ -16,12 +24,22 @@
     "categories": [
         "Themes"
     ],
+    "keywords": [
+        "theme",
+        "dark theme",
+        "dark",
+        "black",
+        "monochrome",
+        "neutral",
+        "minimal",
+        "shadcn"
+    ],
     "contributes": {
         "themes": [
             {
-                "label": "Cainhurst",
+                "label": "Miasma",
                 "uiTheme": "vs-dark",
-                "path": "./themes/cainhurst-color-theme.json"
+                "path": "./themes/miasma-color-theme.json"
             }
         ]
     }

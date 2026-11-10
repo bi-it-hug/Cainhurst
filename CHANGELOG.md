@@ -1,9 +1,8 @@
-# Change Log
+# Changelog
 
-All notable changes to the "byrgenwerth" extension will be documented in this file.
+All notable changes to Miasma are documented in this file.
+The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project uses [Semantic Versioning](https://semver.org/).
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [0.0.1]
 
-## [Unreleased]
-
--   Initial release
+- Initial release.
